@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>WebConsole by igorkulman</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>WebConsole</h1>
+        <p>C# scripting console for a ASP.NET MVC project base on Roslyn</p>
+
+        <p class="view"><a href="https://github.com/igorkulman/WebConsole">View the Project on GitHub <small>igorkulman/WebConsole</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/igorkulman/WebConsole/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/igorkulman/WebConsole/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/igorkulman/WebConsole">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="webconsole" class="anchor" href="#webconsole"><span class="octicon octicon-link"></span></a>WebConsole</h1>
+
+<p>C# scripting console for a ASP.NET MVC project base on Roslyn</p>
+
+<h3>
+<a name="motivation" class="anchor" href="#motivation"><span class="octicon octicon-link"></span></a>Motivation</h3>
+
+<p>I needed a way to provide the advanced users scripting support in a ASP.NET MVC application running in Windows Azure. I choose C# as tre scripting language.</p>
+
+<h3>
+<a name="implementation" class="anchor" href="#implementation"><span class="octicon octicon-link"></span></a>Implementation</h3>
+
+<p>The C# scripting solution is based on <a href="http://msdn.microsoft.com/en-us/vstudio/roslyn.aspx">Roslyn</a>. The sample solution shows a basic scripting console to run C# scripts in a context containing one repository class.</p>
+
+<h3>
+<a name="sample-script" class="anchor" href="#sample-script"><span class="octicon octicon-link"></span></a>Sample script</h3>
+
+<div class="highlight highlight-csharp"><pre><span class="kt">var</span> <span class="n">data</span> <span class="p">=</span> <span class="n">Repository</span><span class="p">.</span><span class="n">GetAll</span><span class="p">();</span>      
+<span class="n">data</span><span class="p">.</span><span class="n">Count</span><span class="p">()</span>    
+</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/igorkulman">igorkulman</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
