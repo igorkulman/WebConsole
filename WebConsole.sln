@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EA1C34
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebConsole.Scripting", "WebConsole.Scripting\WebConsole.Scripting.csproj", "{5217BD42-D3FD-4E25-A822-5A24E76251D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{3264AA8F-3A6E-45E3-8078-164CB2A19D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3264AA8F-3A6E-45E3-8078-164CB2A19D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3264AA8F-3A6E-45E3-8078-164CB2A19D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5217BD42-D3FD-4E25-A822-5A24E76251D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5217BD42-D3FD-4E25-A822-5A24E76251D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5217BD42-D3FD-4E25-A822-5A24E76251D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5217BD42-D3FD-4E25-A822-5A24E76251D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

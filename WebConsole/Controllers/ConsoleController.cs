@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Roslyn.Scripting.CSharp;
+using WebConsole.Scripting;
 
 namespace WebConsole.Controllers
 {
@@ -20,8 +21,11 @@ namespace WebConsole.Controllers
         [ValidateInput(false)]
         public ActionResult Run(string command)
         {
+            var context = new ScriptingContext();
+
             var roslynEngine = new ScriptEngine();
-            Roslyn.Scripting.Session session = roslynEngine.CreateSession();
+            Roslyn.Scripting.Session session = roslynEngine.CreateSession(context);
+            session.AddReference(context.GetType().Assembly);
             session.AddReference("System.Web");
             session.AddReference("System");
             session.AddReference("System.Core");
