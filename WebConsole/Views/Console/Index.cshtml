@@ -1,0 +1,17 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Console";    
+}
+
+<h2>Console</h2>
+
+@using (Html.BeginForm("Run", "Console", FormMethod.Post, new {}))
+{
+
+    <textarea name="command" id="command"></textarea>
+
+    <br />
+    
+    <input type="submit" value="Run" />
+}
