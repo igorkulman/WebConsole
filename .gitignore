@@ -1,0 +1,6 @@
+/packages
+
+/WebConsole/obj
+/WebConsole/bin
+/WebConsole/*.user
+/*.suo
